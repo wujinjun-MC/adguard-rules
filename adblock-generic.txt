@@ -27,18 +27,26 @@ utalk.xjtlu.edu.cn###app > div.page-home-index > div:first-child > section.el-co
 utalk.xjtlu.edu.cn###app > div.page-home-index > div:first-child > section.el-container.is-vertical:first-child > footer.el-footer.page-home-index-footer:last-child > div.footer-index:first-child > div.el-row > div.el-col.el-col-24.el-col-xs-24.el-col-sm-12.el-col-md-5.el-col-lg-6.el-col-xl-6.is-guttered:nth-child(2)
 utalk.xjtlu.edu.cn###app > div.page-home-index > div:first-child > section.el-container.is-vertical:first-child > footer.el-footer.page-home-index-footer:last-child > div.footer-index:first-child > div.el-row > div.el-col.el-col-24.el-col-xs-24.el-col-sm-12.el-col-md-6.el-col-lg-6.el-col-xl-6.is-guttered:nth-child(3) > div.three
 
-!     Adblock.generic
-webrtcclient.com##div.ays-pb-modals.av_pop_modals_1:nth-child(27)
-openid.13a.com###app > div.main.padding-limiter:last-child > div.panel > div.double-column > img.panel-wide.login-img:first-child
-natfrp.com###readTheDocsToLearnHowToCloseThisPromptPermenantlyInsteadOfBlockingItAndNotReadTheDocs
-labellerr.com###site-main > article.article.post.tag-dataset.tag-hash-akshit.tag-large-language-models.tag-de-duplication.tag-llms.tag-double-descent > section:nth-child(2) > div.contenernew > div.blogsecmain > div.blogrightsec:last-child
-
 !     Zhihu
 zhuanlan.zhihu.com###root > div.App > main.App-main:nth-child(5) > div.Post-content > div.Post-Row-Content:nth-child(3) > div.Post-Row-Content-right.css-1qyytj7:last-child > div:last-child
 zhuanlan.zhihu.com###root > div.App > main.App-main:nth-child(5) > div.Post-content > div.Post-Sub.Post-NormalSub:last-child
 zhuanlan.zhihu.com###root > div.App > div.css-s8xum0:nth-child(2) > header.AppHeader.css-iilrph > div.css-lgijre > div.css-51utkw:last-child > div.css-51utkw:first-child
 zhuanlan.zhihu.com###root > div.App > div.css-s8xum0:nth-child(2) > header.AppHeader.css-iilrph > div.css-lgijre > div.css-51utkw:last-child > div.css-14iuq0r:last-child > div > div.PageHeader.is-shown.css-1s2qlbp > div.ColumnPageHeader-Wrapper > div > div.Sticky.ColumnPageHeader.css-psv128 > div.ColumnPageHeader-content.css-9v5t7d > div.css-myjpgh:last-child > div.ColumnPageHeader-Title.css-1cmu9ed:nth-child(2)
 zhuanlan.zhihu.com###root > div.App > div.css-s8xum0:nth-child(2) > header.AppHeader.css-iilrph > div.css-lgijre > div.css-51utkw:last-child > div.css-14iuq0r:last-child > div > div.PageHeader.is-shown.css-1s2qlbp > div.ColumnPageHeader-Wrapper > div > div.Sticky.ColumnPageHeader.css-psv128 > div.ColumnPageHeader-content.css-9v5t7d > div.css-myjpgh:last-child > div.ColumnPageHeader-Button.css-6su6fj:last-child > div.Popover:last-child
+
+!     Cpolar
+!dashboard.cpolar.com###dashboard > div.container-fluid > div.row-fluid:first-child
+!dashboard.cpolar.com###dashboard > div.container-fluid > div.row-fluid:last-child
+!dashboard.cpolar.com##div.container-fluid:nth-child(6)
+dashboard.cpolar.com###footer
+dashboard.cpolar.com###realNameAuthOverlay
+
+!     Adblock.generic
+webrtcclient.com##div.ays-pb-modals.av_pop_modals_1:nth-child(27)
+openid.13a.com###app > div.main.padding-limiter:last-child > div.panel > div.double-column > img.panel-wide.login-img:first-child
+natfrp.com###readTheDocsToLearnHowToCloseThisPromptPermenantlyInsteadOfBlockingItAndNotReadTheDocs
+labellerr.com###site-main > article.article.post.tag-dataset.tag-hash-akshit.tag-large-language-models.tag-de-duplication.tag-llms.tag-double-descent > section:nth-child(2) > div.contenernew > div.blogsecmain > div.blogrightsec:last-child
+zhongce.sina.com.cn##div.guide-search:first-child
 
 ! Android
 !     Familymart?
