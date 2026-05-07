@@ -41,12 +41,27 @@ zhuanlan.zhihu.com###root > div.App > div.css-s8xum0:nth-child(2) > header.AppHe
 dashboard.cpolar.com###footer
 dashboard.cpolar.com###realNameAuthOverlay
 
+!     cilimao (磁力猫)
+!         Has multiple mirrors, only blocking in subset. Please add other mirrors following this format if you want.
+!         Main site (cilimao.de) doesn't have the splash.
+154.17.225.115##.layui-layer, .layui-layer-page
+154.17.225.115###layui-layer-shade1
+clm1.xyz##.layui-layer, .layui-layer-page
+clm1.xyz###layui-layer-shade1
+clm10.xyz##.layui-layer, .layui-layer-page
+clm10.xyz###layui-layer-shade1
+clm58.top##.layui-layer, .layui-layer-page
+clm58.top###layui-layer-shade1
+
 !     Adblock.generic
 webrtcclient.com##div.ays-pb-modals.av_pop_modals_1:nth-child(27)
 openid.13a.com###app > div.main.padding-limiter:last-child > div.panel > div.double-column > img.panel-wide.login-img:first-child
 natfrp.com###readTheDocsToLearnHowToCloseThisPromptPermenantlyInsteadOfBlockingItAndNotReadTheDocs
 labellerr.com###site-main > article.article.post.tag-dataset.tag-hash-akshit.tag-large-language-models.tag-de-duplication.tag-llms.tag-double-descent > section:nth-child(2) > div.contenernew > div.blogsecmain > div.blogrightsec:last-child
 zhongce.sina.com.cn##div.guide-search:first-child
+fc2ppv.me###protection
+kin8-jav.com###protection
+yutu.cn##div.alt-over-url:nth-child(21)
 
 ! Android
 !     Familymart?
