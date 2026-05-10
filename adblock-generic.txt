@@ -62,6 +62,7 @@ zhongce.sina.com.cn##div.guide-search:first-child
 fc2ppv.me###protection
 kin8-jav.com###protection
 yutu.cn##div.alt-over-url:nth-child(21)
+baeldung.com###zddnuw
 
 ! Android
 !     Familymart?
@@ -78,3 +79,11 @@ yutu.cn##div.alt-over-url:nth-child(21)
 ||video*-*.pddpic.com/tower-video-side-b^$all
 !     YangGuoFu
 ||pos.ygfchina.com/weixin/wechat/banner/bannerList^$all
+!     China Telecom
+!         Weixin
+!             Jiangsu
+!                 Mobile data usage details
+!                     Annoying AI agent
+!                         Spotted: http://wapjs.189.cn/tysh/pages/businessHall/packageTheRemaining.html
+wapjs.189.cn###packageTheRemainingNew > div.blackBg.c2
+wapjs.189.cn###packageTheRemainingNew > div.tc_flowAI_jiedu.c2
