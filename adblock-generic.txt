@@ -2,19 +2,19 @@
 !     PicSee
 picsee.io###ad_dialog___BV_modal_content_
 picsee.io###ad_dialog___BV_modal_outer_
+
 !     AntiFraud.js96110
 !         Show fraud risk notification without js96110 redirection
 *$important,header=location:/js96110/,redirect=click2load.html
-*$important,header=Location:/js96110/,redirect=click2load.html
 *$important,header=location:http://www.js96110.com.cn,redirect=click2load.html
-*$important,header=Location:http://www.js96110.com.cn,redirect=click2load.html
 *$important,header=location:https://www.js96110.com.cn,redirect=click2load.html
-*$important,header=Location:https://www.js96110.com.cn,redirect=click2load.html
 ||www.js96110.com.cn^$all,redirect=click2load.html
+
 !     Router.popup
 192.168.3.1###noticebar
 192.168.3.1###maskMenu
 192.168.3.1##.mask-menu
+
 !     DYTT.popup
 dytt8899.com###noticeFixedBox
 
@@ -53,6 +53,11 @@ clm10.xyz###layui-layer-shade1
 clm58.top##.layui-layer, .layui-layer-page
 clm58.top###layui-layer-shade1
 
+!     xueqiu (雪球)
+!         Fully blocked because of unexpected behavior on Wayback Machine. You should use `Save screenshot` to prevent disgusting force redirection to the site.
+||xueqiu.com^$all,redirect=click2load.html
+||www.xueqiu.com^$all,redirect=click2load.html
+
 !     Adblock.generic
 webrtcclient.com##div.ays-pb-modals.av_pop_modals_1:nth-child(27)
 openid.13a.com###app > div.main.padding-limiter:last-child > div.panel > div.double-column > img.panel-wide.login-img:first-child
@@ -63,6 +68,7 @@ fc2ppv.me###protection
 kin8-jav.com###protection
 yutu.cn##div.alt-over-url:nth-child(21)
 baeldung.com###zddnuw
+
 
 ! Android
 !     Familymart?
@@ -87,3 +93,13 @@ baeldung.com###zddnuw
 !                         Spotted: http://wapjs.189.cn/tysh/pages/businessHall/packageTheRemaining.html
 wapjs.189.cn###packageTheRemainingNew > div.blackBg.c2
 wapjs.189.cn###packageTheRemainingNew > div.tc_flowAI_jiedu.c2
+||wx.go189.cn/app/advertisement^$all
+||wx.go189.cn/app/chudian/exchange^$all
+!    YJSL_freezer (元气森林智能柜, 元气扫码购)
+!        已有优惠卷显示、优惠卷购买弹窗
+||gos-ol.yqslmall.com/api/gos-marketing-center/coupon/user/exposure^$all
+||gos-ol.yqslmall.com/api/gos-marketing-center/banner/info^$all
+!        用户行为跟踪
+||gos-ol.yqslmall.com/felog-client^$all
+!    Ali_general_app_update_download
+||appdownload.alicdn.com^$all
