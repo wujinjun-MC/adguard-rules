@@ -58,6 +58,15 @@ clm58.top###layui-layer-shade1
 ||xueqiu.com^$all,redirect=click2load.html
 ||www.xueqiu.com^$all,redirect=click2load.html
 
+!     laosu.tech
+!         Anti Anti-Adblock
+!laosu.tech##div.site-notice-panel > *
+!laosu.tech##div.site-notice-panel
+laosu.tech#@##carbonads
+laosu.tech#@#.ad-title
+laosu.tech#@#.ad-block
+damag.net##div.container:first-child > div.row:nth-child(3)
+
 !     Adblock.generic
 webrtcclient.com##div.ays-pb-modals.av_pop_modals_1:nth-child(27)
 openid.13a.com###app > div.main.padding-limiter:last-child > div.panel > div.double-column > img.panel-wide.login-img:first-child
@@ -103,3 +112,14 @@ wapjs.189.cn###packageTheRemainingNew > div.tc_flowAI_jiedu.c2
 ||gos-ol.yqslmall.com/felog-client^$all
 !    Ali_general_app_update_download
 ||appdownload.alicdn.com^$all
+!    Shouqianba (收钱吧)
+!        Most ADs
+ads-shopping.shouqianba.com^$all
+!        User tracking
+mk-group.cn-hangzhou.log.aliyuncs.com^$all
+!    xpcyjqy (西浦创业家公寓)
+!        Auto select "我已阅读并同意 [《住宿管理协议》](https://www.xpcyjgy.com/#/stipulate1)" (Save avg. 1~3 seconds struggling to locate the button that only occupies <0.1% of the screen)
+!            Compatible with [XJTLU xpcyjgy 自动登录](https://greasyfork.org/zh-CN/scripts/551035-xjtlu-xpcyjgy-%E8%87%AA%E5%8A%A8%E7%99%BB%E5%BD%95)
+www.xpcyjgy.com#%#//scriptlet('trusted-click-element', 'body > div.page-admin > div > div:nth-child(1) > div.nui-box-bd > div:nth-child(4) > div.wjt-mt30.wjt-agreement > label')
+!        Homepage AD slide remover
+www.xpcyjgy.com##div.page-admin.white:nth-child(2) > div.wjt-all:first-child > div.wjt-first > div.wjt-first-w:last-child > div:nth-child(4)
