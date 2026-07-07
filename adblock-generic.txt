@@ -18,14 +18,32 @@ picsee.io###ad_dialog___BV_modal_outer_
 !     DYTT.popup
 dytt8899.com###noticeFixedBox
 
-!     Utalk
-!         Utalk.follow_rules
+!     XJTLU
+!         Utalk
+!             Utalk.follow_rules
 utalk.xjtlu.edu.cn###app > div.page-home-index > div:first-child > section.el-container.is-vertical:first-child > main.el-main.page-home-index-main:nth-child(2) > div.main-post-details-index > div.post-details-main:nth-child(2) > div.post-main:last-child > div.post-right:last-child > div.post-reply.displayNone:nth-child(2) > div.el-card.is-always-shadow > div.el-card__body > div.post-reply-text:last-child
-!         Utalk.button.qr_code
+!             Utalk.button.qr_code
 utalk.xjtlu.edu.cn###app > div.page-home-index > div:first-child > section.el-container.is-vertical:first-child > footer.el-footer.page-home-index-footer:last-child > div.footer-index:first-child > div.el-row > div.el-col.el-col-24.el-col-xs-24.el-col-sm-24.el-col-md-7.el-col-lg-6.el-col-xl-6.is-guttered:last-child > div.four
-!         Utalk.button.friend_links
+!             Utalk.button.friend_links
 utalk.xjtlu.edu.cn###app > div.page-home-index > div:first-child > section.el-container.is-vertical:first-child > footer.el-footer.page-home-index-footer:last-child > div.footer-index:first-child > div.el-row > div.el-col.el-col-24.el-col-xs-24.el-col-sm-12.el-col-md-5.el-col-lg-6.el-col-xl-6.is-guttered:nth-child(2)
 utalk.xjtlu.edu.cn###app > div.page-home-index > div:first-child > section.el-container.is-vertical:first-child > footer.el-footer.page-home-index-footer:last-child > div.footer-index:first-child > div.el-row > div.el-col.el-col-24.el-col-xs-24.el-col-sm-12.el-col-md-6.el-col-lg-6.el-col-xl-6.is-guttered:nth-child(3) > div.three
+!         Netauth
+!             Auto select "" (Save avg. ?~? seconds struggling to locate and click on the box that only occupies <0.?% of the screen)
+!TODO
+!         Box
+!             Auto select "7天内保持登录" (Save avg. 1~2 seconds struggling to locate and click on the box that only occupies <0.005% of the screen)
+!                 Compatible with [XJTLU box 自动登录](https://greasyfork.org/zh-CN/scripts/550860-xjtlu-box-%E8%87%AA%E5%8A%A8%E7%99%BB%E5%BD%95)
+box.xjtlu.edu.cn#%#//scriptlet('trusted-click-element', '#login-form > label > input')
+!         LearningMall
+!             Core
+!                 Auto select "By uploading or submitting this work I certify I have read, understand and agree to the University’s requirements and expectations concerning this activity.上传提交本作业/答题，即表示我已阅读、理解并同意遵守学校关于考试考核学术诚信的相关要求。" \
+!                     (Save avg. 1~4 seconds struggling to locate and click on the box that only occupies <0.005% of the screen)
+core.xjtlu.edu.cn#%#//scriptlet('trusted-click-element', '#id_submissionstatement')
+core.xjtlu.edu.cn#%#//scriptlet('trusted-replace-node-text', '#page-header > div > div.d-flex.align-items-center > h1', '.*', 'Blocked Text')
+!                 Remove your name title (Hi, <name>) after a fresh login (save your privacy)
+!core.xjtlu.edu.cn###page-header > div.w-100 > div.d-flex.align-items-center:last-child > h1.h2.mb-3.mt-3:first-child
+!core.xjtlu.edu.cn###page-header > div > div.d-flex.align-items-center > h1
+core.xjtlu.edu.cn###page-header
 
 !     Zhihu
 zhuanlan.zhihu.com###root > div.App > main.App-main:nth-child(5) > div.Post-content > div.Post-Row-Content:nth-child(3) > div.Post-Row-Content-right.css-1qyytj7:last-child > div:last-child
@@ -58,6 +76,11 @@ clm58.top###layui-layer-shade1
 ||xueqiu.com^$all,redirect=click2load.html
 ||www.xueqiu.com^$all,redirect=click2load.html
 
+!     srun (深澜)
+!         Fully blocked because of unexpected behavior.
+||srun.com^$all,redirect=click2load.html
+||www.srun.com^$all,redirect=click2load.html
+
 !     laosu.tech
 !         Anti Anti-Adblock
 !laosu.tech##div.site-notice-panel > *
@@ -66,6 +89,17 @@ laosu.tech#@##carbonads
 laosu.tech#@#.ad-title
 laosu.tech#@#.ad-block
 damag.net##div.container:first-child > div.row:nth-child(3)
+
+!     ieltsmaterial
+!         signup popup
+||ieltsmaterial.com/site/signup-popup^$all
+ieltsmaterial.com###js-signup-form-container
+!         Spinning wheel
+ieltsmaterial.com###ielts-spinner-modal
+
+!     blog.zhx47.top
+!         "页脚信息可能被AdBlocker Ultimate拦截，请检查广告拦截插件！" in halo.js halo.checkAd()
+blog.zhx47.top#@##footer-banner
 
 !     Adblock.generic
 webrtcclient.com##div.ays-pb-modals.av_pop_modals_1:nth-child(27)
@@ -77,10 +111,11 @@ fc2ppv.me###protection
 kin8-jav.com###protection
 yutu.cn##div.alt-over-url:nth-child(21)
 baeldung.com###zddnuw
+###onetrust-consent-sdk
 
 
 ! Android
-!     Familymart?
+!     Familymart? 如意馄饨?
 ||member.streffy.com/base/v2/Advertisement/GetDisplayAdvertisements$jsonprune=\$.advertisements[?(has advertisementId)]
 !     PangGuaiShengHuo
 ||userapi.qiekj.com/slot/get
@@ -114,12 +149,42 @@ wapjs.189.cn###packageTheRemainingNew > div.tc_flowAI_jiedu.c2
 ||appdownload.alicdn.com^$all
 !    Shouqianba (收钱吧)
 !        Most ADs
-ads-shopping.shouqianba.com^$all
+||ads-shopping.shouqianba.com^$all
 !        User tracking
-mk-group.cn-hangzhou.log.aliyuncs.com^$all
+||mk-group.cn-hangzhou.log.aliyuncs.com^$all
 !    xpcyjqy (西浦创业家公寓)
 !        Auto select "我已阅读并同意 [《住宿管理协议》](https://www.xpcyjgy.com/#/stipulate1)" (Save avg. 1~3 seconds struggling to locate the button that only occupies <0.1% of the screen)
 !            Compatible with [XJTLU xpcyjgy 自动登录](https://greasyfork.org/zh-CN/scripts/551035-xjtlu-xpcyjgy-%E8%87%AA%E5%8A%A8%E7%99%BB%E5%BD%95)
 www.xpcyjgy.com#%#//scriptlet('trusted-click-element', 'body > div.page-admin > div > div:nth-child(1) > div.nui-box-bd > div:nth-child(4) > div.wjt-mt30.wjt-agreement > label')
 !        Homepage AD slide remover
 www.xpcyjgy.com##div.page-admin.white:nth-child(2) > div.wjt-all:first-child > div.wjt-first > div.wjt-first-w:last-child > div:nth-child(4)
+!    com.xcgl.chengla (橙啦)
+!        Prevent force update and its bundling ADs (禁止强制更新及捆绑广告)
+!            "bundling ADs".example: "好友注册成功后得1000橙币"
+||clapp.orangevip.com/appVersion/checkForceUpdate^$all
+!        no noteCheat (禁止作弊)
+||otmadmin.orangevip.com/api/app/noteCheat^$all
+!        getPlayUrl: no watermark (去水印), no AD (去广告), no enable_prevent_screen_capture (强制允许截屏), no enable_beauty (禁止AI美化), no enable_auto_video_fullscreen (禁止强制自动全屏), no strengthen_against_pirate (禁止强力对抗海盗), no playback_default_definition (禁止强制默认分辨率), enable_video_comment and enable_change_video_rate and enable_video_fullscreen force 1 (强制允许视频评论、修改倍速、全屏)
+||chengla.at.baijiayun.com/vod/video/getPlayUrl^$jsonprune=\$..["watermark"\, "watermark_switch"\, "watermark_pos"\, "video_watermark_url"\, "video_watermark_pos"\, "video_watermark"\, "ad"\, "enable_prevent_screen_capture"\, "enable_beauty"\, "enable_auto_video_fullscreen"\, "strengthen_against_pirate"\, "playback_default_definition"]
+||chengla.at.baijiayun.com/vod/video/getPlayUrl^$replace=/"enable_video_comment": 0/"enable_video_comment": 1/
+||chengla.at.baijiayun.com/vod/video/getPlayUrl^$replace=/"enable_change_video_rate": 0/"enable_change_video_rate": 1/
+||chengla.at.baijiayun.com/vod/video/getPlayUrl^$replace=/"enable_video_fullscreen": 0/"enable_video_fullscreen": 1/
+!        periodPlay_info: no watermark (去水印)
+||clapp.orangevip.com/course/periodPlay_info^$jsonprune=\$..["watermark"\, "waterMarkMessage"]
+!        no AD by removing getAdImage (去广告 通过 禁止获取广告图片)
+||clapp.orangevip.com/common/getAdImage^$all
+!        no SDK logs (禁止SDK日志)
+||qs.baijiayun.com^$all
+||click.baijiayun.com^$all
+||brtc-data-collection.baijiayun.com^$all
+||android.bugly.qq.com^$all
+||cnlogs.umeng.com^$all
+||ali-stats.jpush.cn^$all
+||errnewlog.umeng.com^$all
+||app-log-storage.oss-cn-shanghai.aliyuncs.com^$all
+||kefu.easemob.com^$all
+||utoken.umeng.com^$all
+||logger.csslcloud.net^$all
+!            umeng's puata yumao, actually virus (友盟的 "puata" "yumao"，实际上是病毒)
+!                evidence: [深度逆向：GitHub 高星“抢红包外挂”竟是专业级间谍木马](https://www.luogu.com.cn/article/l1x917iq) ([页面存档备份](https://web.archive.org/web/20260707135335/https://www.luogu.com.cn/article/l1x917iq)，存于[互联网档案馆](https://zh.wikipedia.org/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86))
+||yumao.puata.info^$all
