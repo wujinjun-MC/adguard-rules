@@ -118,6 +118,20 @@ blog.zhx47.top#@##footer-banner
 !         Bypass copy and right-click checker (FUCK now because all your contents are AI-generated or copied from other sites without licensing + Lots of side-effects, including: blocking convenient middle-click sliding)
 ieltsdeal.com$$script[id="wpcp_disable_selection"]
 
+!     yhg (移花宫) (仅针对主站 yhg007.com ，镜像站请自行扩展)
+!         拒绝 Cookie ，可以在一定程度上 Fuck Cloudflare Challenge ((NOT HATE SPEECH)) 。 (建议搭配 Clash 分流规则，自动检测可访问的节点)
+*$cookie,domain=yhg007.com|yhg008.com
+
+!     ChengLa/OrangeVIP (橙啦)
+!         登录页面
+!             Anti footer (ugly ICP number)
+u.orangevip.com###app > div.footer:last-child
+!         主站页面
+!             Anti footer (ugly half-screen Tel and ICP numbers)
+orangevip.com###__layout > div.main-wrapper > section.cl-footer:last-child
+!             Anti "Download APP / Proprietary software" tips
+orangevip.com###__layout > div.main-wrapper > div.wrapper:first-child > section.content.isSpecific:last-child > div.my-class > div.my-class-main:nth-child(2) > div.main.clearfix > div.fr.sticky-style:last-child > section.listen-step:first-child
+
 !     Adblock.generic
 webrtcclient.com##div.ays-pb-modals.av_pop_modals_1:nth-child(27)
 openid.13a.com###app > div.main.padding-limiter:last-child > div.panel > div.double-column > img.panel-wide.login-img:first-child
@@ -156,41 +170,41 @@ wapjs.189.cn###packageTheRemainingNew > div.blackBg.c2
 wapjs.189.cn###packageTheRemainingNew > div.tc_flowAI_jiedu.c2
 ||wx.go189.cn/app/advertisement^$all
 ||wx.go189.cn/app/chudian/exchange^$all
-!    YJSL_freezer (元气森林智能柜, 元气扫码购)
-!        已有优惠卷显示、优惠卷购买弹窗
+!     YJSL_freezer (元气森林智能柜, 元气扫码购)
+!         已有优惠卷显示、优惠卷购买弹窗
 ||gos-ol.yqslmall.com/api/gos-marketing-center/coupon/user/exposure^$all
 ||gos-ol.yqslmall.com/api/gos-marketing-center/banner/info^$all
-!        用户行为跟踪
+!         用户行为跟踪
 ||gos-ol.yqslmall.com/felog-client^$all
-!    Ali_general_app_update_download
+!     Ali_general_app_update_download
 ||appdownload.alicdn.com^$all
-!    Shouqianba (收钱吧)
-!        Most ADs
+!     Shouqianba (收钱吧)
+!         Most ADs
 ||ads-shopping.shouqianba.com^$all
-!        User tracking
+!         User tracking
 ||mk-group.cn-hangzhou.log.aliyuncs.com^$all
-!    xpcyjqy (西浦创业家公寓)
-!        Auto select "我已阅读并同意 [《住宿管理协议》](https://www.xpcyjgy.com/#/stipulate1)" (Save avg. 1~3 seconds struggling to locate the button that only occupies <0.1% of the screen)
-!            Compatible with [XJTLU xpcyjgy 自动登录](https://greasyfork.org/zh-CN/scripts/551035-xjtlu-xpcyjgy-%E8%87%AA%E5%8A%A8%E7%99%BB%E5%BD%95)
+!     xpcyjqy (西浦创业家公寓)
+!         Auto select "我已阅读并同意 [《住宿管理协议》](https://www.xpcyjgy.com/#/stipulate1)" (Save avg. 1~3 seconds struggling to locate the button that only occupies <0.1% of the screen)
+!             Compatible with [XJTLU xpcyjgy 自动登录](https://greasyfork.org/zh-CN/scripts/551035-xjtlu-xpcyjgy-%E8%87%AA%E5%8A%A8%E7%99%BB%E5%BD%95)
 www.xpcyjgy.com#%#//scriptlet('trusted-click-element', 'body > div.page-admin > div > div:nth-child(1) > div.nui-box-bd > div:nth-child(4) > div.wjt-mt30.wjt-agreement > label')
-!        Homepage AD slide remover
+!         Homepage AD slide remover
 www.xpcyjgy.com##div.page-admin.white:nth-child(2) > div.wjt-all:first-child > div.wjt-first > div.wjt-first-w:last-child > div:nth-child(4)
-!    com.xcgl.chengla (橙啦)
-!        Prevent force update and its bundling ADs (禁止强制更新及捆绑广告)
-!            "bundling ADs".example: "好友注册成功后得1000橙币"
+!     com.xcgl.chengla (橙啦)
+!         Prevent force update and its bundling ADs (禁止强制更新及捆绑广告)
+!             "bundling ADs".example: "好友注册成功后得1000橙币"
 ||clapp.orangevip.com/appVersion/checkForceUpdate^$all
-!        no noteCheat (禁止作弊)
+!         no noteCheat (禁止作弊)
 ||otmadmin.orangevip.com/api/app/noteCheat^$all
-!        getPlayUrl: no watermark (去水印), no AD (去广告), no enable_prevent_screen_capture (强制允许截屏), no enable_beauty (禁止AI美化), no enable_auto_video_fullscreen (禁止强制自动全屏), no strengthen_against_pirate (禁止强力对抗海盗), no playback_default_definition (禁止强制默认分辨率), enable_video_comment and enable_change_video_rate and enable_video_fullscreen force 1 (强制允许视频评论、修改倍速、全屏)
+!         getPlayUrl: no watermark (去水印), no AD (去广告), no enable_prevent_screen_capture (强制允许截屏), no enable_beauty (禁止AI美化), no enable_auto_video_fullscreen (禁止强制自动全屏), no strengthen_against_pirate (禁止强力对抗海盗), no playback_default_definition (禁止强制默认分辨率), enable_video_comment and enable_change_video_rate and enable_video_fullscreen force 1 (强制允许视频评论、修改倍速、全屏)
 ||chengla.at.baijiayun.com/vod/video/getPlayUrl^$jsonprune=\$..["watermark"\, "watermark_switch"\, "watermark_pos"\, "video_watermark_url"\, "video_watermark_pos"\, "video_watermark"\, "ad"\, "enable_prevent_screen_capture"\, "enable_beauty"\, "enable_auto_video_fullscreen"\, "strengthen_against_pirate"\, "playback_default_definition"]
 ||chengla.at.baijiayun.com/vod/video/getPlayUrl^$replace=/"enable_video_comment": 0/"enable_video_comment": 1/
 ||chengla.at.baijiayun.com/vod/video/getPlayUrl^$replace=/"enable_change_video_rate": 0/"enable_change_video_rate": 1/
 ||chengla.at.baijiayun.com/vod/video/getPlayUrl^$replace=/"enable_video_fullscreen": 0/"enable_video_fullscreen": 1/
-!        periodPlay_info: no watermark (去水印)
+!         periodPlay_info: no watermark (去水印)
 ||clapp.orangevip.com/course/periodPlay_info^$jsonprune=\$..["watermark"\, "waterMarkMessage"]
-!        no AD by removing getAdImage (去广告 通过 禁止获取广告图片)
+!         no AD by removing getAdImage (去广告 通过 禁止获取广告图片)
 ||clapp.orangevip.com/common/getAdImage^$all
-!        no SDK logs (禁止SDK日志)
+!         no SDK logs (禁止SDK日志)
 ||qs.baijiayun.com^$all
 ||click.baijiayun.com^$all
 ||brtc-data-collection.baijiayun.com^$all
@@ -202,6 +216,6 @@ www.xpcyjgy.com##div.page-admin.white:nth-child(2) > div.wjt-all:first-child > d
 ||kefu.easemob.com^$all
 ||utoken.umeng.com^$all
 ||logger.csslcloud.net^$all
-!            umeng's puata yumao, actually virus (友盟的 "puata" "yumao"，实际上是病毒)
-!                evidence: [深度逆向：GitHub 高星“抢红包外挂”竟是专业级间谍木马](https://www.luogu.com.cn/article/l1x917iq) ([页面存档备份](https://web.archive.org/web/20260707135335/https://www.luogu.com.cn/article/l1x917iq)，存于[互联网档案馆](https://zh.wikipedia.org/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86))
+!             umeng's puata yumao, actually virus (友盟的 "puata" "yumao"，实际上是病毒)
+!                 evidence: [深度逆向：GitHub 高星“抢红包外挂”竟是专业级间谍木马](https://www.luogu.com.cn/article/l1x917iq) ([页面存档备份](https://web.archive.org/web/20260707135335/https://www.luogu.com.cn/article/l1x917iq)，存于[互联网档案馆](https://zh.wikipedia.org/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86))
 ||yumao.puata.info^$all
