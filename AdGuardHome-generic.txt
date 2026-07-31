@@ -12,6 +12,16 @@
 ||srun.com^
 ||www.srun.com^
 
+!     ChengLa/OrangeVIP (橙啦)
+!         主站页面
+!             Class Live (Living classroom)
+!                 DO NOT TRACK
+||trace.orangevip.com^
+
+!     report.error-report.com
+!         DO NOT POPUP!!!
+||report.error-report.com^
+
 !     adblock-generic.txt → Android:
 
 !         McDonalds (APP + mini_program)
