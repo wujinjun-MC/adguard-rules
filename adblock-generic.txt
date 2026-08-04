@@ -175,6 +175,11 @@ orangevip.com###clplayback > div[style*="bjy-roll-lamp-default"]
 ||img.baijiayun.com/0baijiacloud/live_ppt^$all,removeparam=userid
 !                 DO NOT TRACK
 ||trace.orangevip.com^$all
+!         相关页面
+!             线上测评 (chengla.shanmaostar.com)
+!                 禁止用户追踪 (returnTime, leaveTime, TaskActualTime)
+||chengla.shanmaostar.com/newWebstudent/myhomework/recordHiddenVisible^$all
+||chengla.shanmaostar.com/newWebstudent/myhomework/saveIeltsTaskActualTime^$all
 
 !     report.error-report.com
 !         DO NOT POPUP!!!
@@ -184,6 +189,11 @@ orangevip.com###clplayback > div[style*="bjy-roll-lamp-default"]
 !         Disable all inline scripts (including "Please allow ads on this site. Click OK to learn more")
 ||dictionary.cambridge.org^$inline-script
 ||web.archive.org/web/*/https://dictionary.cambridge.org^$inline-script
+
+!     Internet Archive (archive.org)
+!         Wayback Machine (web.archive.org)
+!             I DON'T WANT TO DONATE
+web.archive.org#%#//scriptlet('trusted-click-element', '#donate-close-button')
 
 !     Adblock.generic
 webrtcclient.com##div.ays-pb-modals.av_pop_modals_1:nth-child(27)
@@ -196,6 +206,7 @@ kin8-jav.com###protection
 yutu.cn##div.alt-over-url:nth-child(21)
 baeldung.com###zddnuw
 ###onetrust-consent-sdk
+ycc.idv.tw##aside:nth-child(3)
 
 
 ! Android
