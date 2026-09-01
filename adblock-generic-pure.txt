@@ -1,0 +1,157 @@
+picsee.io###ad_dialog___BV_modal_content_
+picsee.io###ad_dialog___BV_modal_outer_
+*$important,header=location:/js96110/,redirect=click2load.html
+*$important,header=location:http://www.js96110.com.cn,redirect=click2load.html
+*$important,header=location:https://www.js96110.com.cn,redirect=click2load.html
+||www.js96110.com.cn^$all,redirect=click2load.html
+192.168.3.1###noticebar
+192.168.3.1###maskMenu
+192.168.3.1##.mask-menu
+dytt8899.com###noticeFixedBox
+utalk.xjtlu.edu.cn###app > div.page-home-index > div:first-child > section.el-container.is-vertical:first-child > main.el-main.page-home-index-main:nth-child(2) > div.main-post-details-index > div.post-details-main:nth-child(2) > div.post-main:last-child > div.post-right:last-child > div.post-reply.displayNone:nth-child(2) > div.el-card.is-always-shadow > div.el-card__body > div.post-reply-text:last-child
+utalk.xjtlu.edu.cn###app > div.page-home-index > div:first-child > section.el-container.is-vertical:first-child > footer.el-footer.page-home-index-footer:last-child > div.footer-index:first-child > div.el-row > div.el-col.el-col-24.el-col-xs-24.el-col-sm-24.el-col-md-7.el-col-lg-6.el-col-xl-6.is-guttered:last-child > div.four
+utalk.xjtlu.edu.cn###app > div.page-home-index > div:first-child > section.el-container.is-vertical:first-child > footer.el-footer.page-home-index-footer:last-child > div.footer-index:first-child > div.el-row > div.el-col.el-col-24.el-col-xs-24.el-col-sm-12.el-col-md-5.el-col-lg-6.el-col-xl-6.is-guttered:nth-child(2)
+utalk.xjtlu.edu.cn###app > div.page-home-index > div:first-child > section.el-container.is-vertical:first-child > footer.el-footer.page-home-index-footer:last-child > div.footer-index:first-child > div.el-row > div.el-col.el-col-24.el-col-xs-24.el-col-sm-12.el-col-md-6.el-col-lg-6.el-col-xl-6.is-guttered:nth-child(3) > div.three
+box.xjtlu.edu.cn#%#//scriptlet('trusted-click-element', '#login-form > label > input')
+core.xjtlu.edu.cn#%#//scriptlet('trusted-click-element', '#id_submissionstatement')
+core.xjtlu.edu.cn#%#//scriptlet('trusted-replace-node-text', '#page-header > div > div.d-flex.align-items-center > h1', '.*', 'Blocked Text')
+!core.xjtlu.edu.cn###page-header > div.w-100 > div.d-flex.align-items-center:last-child > h1.h2.mb-3.mt-3:first-child
+!core.xjtlu.edu.cn###page-header > div > div.d-flex.align-items-center > h1
+!core.xjtlu.edu.cn###page-header
+!core.xjtlu.edu.cn#?##page-header:matches-path(/^(\/|\/my|\/my\/courses.php)\/?$/)
+core.xjtlu.edu.cn#?##page-header:matches-path(/my)
+!core.xjtlu.edu.cn#?##ad-left:matches-path(/^(\/|\/new_ad|\/another_ad\/version_1)\/?$/)
+etd.xjtlu.edu.cn$$script[tag-content="此文档禁止打印"]
+etd.xjtlu.edu.cn$$script[tag-content="下载已被禁用"]
+||etd.xjtlu.edu.cn^$inline-script
+ebridge.xjtlu.edu.cn###sits_search_div > div.sv-hidden-sm.sv-hidden-xs
+ebridge.xjtlu.edu.cn##.fball
+timetableplus.xjtlu.edu.cn###div.v-overlay__scrim
+timetableplus.xjtlu.edu.cn#%#//scriptlet('remove-attr', 'disabled|example')
+timetableplus.xjtlu.edu.cn#%#//scriptlet('remove-class', 'v-btn--disabled|test')
+timetableplus.xjtlu.edu.cn#%#//scriptlet('trusted-click-element', '#app > div.v-dialog__content.v-dialog__content--active:last-child > div.v-dialog.v-dialog--active.v-dialog--persistent > div.v-card.v-sheet.theme--light > div.v-card__actions:last-child > button.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--light.v-size--default.primary:nth-child(2)','','200','','10000')
+!timetableplus.xjtlu.edu.cn#%#//scriptlet('abort-on-property-read', 'alert')
+!timetableplus.xjtlu.edu.cn#%#//scriptlet('log-eval')
+!uim.xjtlu.edu.cn#%#//scriptlet('log-eval')
+zhuanlan.zhihu.com###root > div.App > main.App-main:nth-child(5) > div.Post-content > div.Post-Row-Content:nth-child(3) > div.Post-Row-Content-right.css-1qyytj7:last-child > div:last-child
+zhuanlan.zhihu.com###root > div.App > main.App-main:nth-child(5) > div.Post-content > div.Post-Sub.Post-NormalSub:last-child
+zhuanlan.zhihu.com###root > div.App > div.css-s8xum0:nth-child(2) > header.AppHeader.css-iilrph > div.css-lgijre > div.css-51utkw:last-child > div.css-51utkw:first-child
+zhuanlan.zhihu.com###root > div.App > div.css-s8xum0:nth-child(2) > header.AppHeader.css-iilrph > div.css-lgijre > div.css-51utkw:last-child > div.css-14iuq0r:last-child > div > div.PageHeader.is-shown.css-1s2qlbp > div.ColumnPageHeader-Wrapper > div > div.Sticky.ColumnPageHeader.css-psv128 > div.ColumnPageHeader-content.css-9v5t7d > div.css-myjpgh:last-child > div.ColumnPageHeader-Title.css-1cmu9ed:nth-child(2)
+zhuanlan.zhihu.com###root > div.App > div.css-s8xum0:nth-child(2) > header.AppHeader.css-iilrph > div.css-lgijre > div.css-51utkw:last-child > div.css-14iuq0r:last-child > div > div.PageHeader.is-shown.css-1s2qlbp > div.ColumnPageHeader-Wrapper > div > div.Sticky.ColumnPageHeader.css-psv128 > div.ColumnPageHeader-content.css-9v5t7d > div.css-myjpgh:last-child > div.ColumnPageHeader-Button.css-6su6fj:last-child > div.Popover:last-child
+!dashboard.cpolar.com###dashboard > div.container-fluid > div.row-fluid:first-child
+!dashboard.cpolar.com###dashboard > div.container-fluid > div.row-fluid:last-child
+!dashboard.cpolar.com##div.container-fluid:nth-child(6)
+dashboard.cpolar.com###footer
+dashboard.cpolar.com###realNameAuthOverlay
+154.17.225.115##.layui-layer, .layui-layer-page
+154.17.225.115###layui-layer-shade1
+clm1.xyz##.layui-layer, .layui-layer-page
+clm1.xyz###layui-layer-shade1
+clm10.xyz##.layui-layer, .layui-layer-page
+clm10.xyz###layui-layer-shade1
+clm58.top##.layui-layer, .layui-layer-page
+clm58.top###layui-layer-shade1
+||xueqiu.com^$all,redirect=click2load.html
+||www.xueqiu.com^$all,redirect=click2load.html
+||srun.com^$all,redirect=click2load.html
+||www.srun.com^$all,redirect=click2load.html
+!laosu.tech##div.site-notice-panel > *
+!laosu.tech##div.site-notice-panel
+laosu.tech#@##carbonads
+laosu.tech#@#.ad-title
+laosu.tech#@#.ad-block
+damag.net##div.container:first-child > div.row:nth-child(3)
+||ieltsmaterial.com/site/signup-popup^$all
+ieltsmaterial.com###js-signup-form-container
+ieltsmaterial.com###ielts-spinner-modal
+blog.zhx47.top#@##footer-banner
+||127.0.0.1:16422/get_client_id$domain=www.iqiyi.com
+||127.0.0.1:16422/get_client_id$domain=iqiyi.com
+ieltsdeal.com$$script[id="wpcp_disable_selection"]
+||ieltsdeal.com^$inline-script
+*$cookie,domain=yhg007.com|yhg008.com
+yhg007.com###main-content > section.zsky-app-ads-mini.zsky-card
+yhg007.com###main-content > section.zsky-publish-links-mini.zsky-card
+yhg007.com###main-content > section.zsky-card.zsky-preview-panel
+yhg007.com###main-content > section.zsky-card.zsky-title-card > div.zsky-tags
+yhg007.com###main-content > section.zsky-card.zsky-title-card > h2
+yhg007.com###main-content > section.zsky-card:nth-child(8)
+u.orangevip.com###app > div.footer:last-child
+orangevip.com###__layout > div.main-wrapper > section.cl-footer:last-child
+orangevip.com###__layout > div.main-wrapper > div.wrapper:first-child > section.content.isSpecific:last-child > div.my-class > div.my-class-main:nth-child(2) > div.main.clearfix > div.fr.sticky-style:last-child > section.listen-step:first-child
+orangevip.com###__layout > div.main-wrapper > div.wrapper:first-child > section.content.isSpecific:last-child > div.my-class > div.my-class-main:nth-child(2) > div.main.clearfix > div.fr:last-child > section.listen-step:first-child
+orangevip.com###bjy-loading-wrapper
+orangevip.com#%#//scriptlet('trusted-click-element', '#app > div > div.dialog-wrap > div > p > button')
+chengla.at.baijiayun.com#%#//scriptlet('trusted-click-element', '#main > div.auto-play-mask > div.auto-play-dialog > div.ok:last-child')
+||img.baijiayun.com^$image,removeparam=x-oss-process
+orangevip.com###main > div[style*="bjy-roll-lamp-default"]
+orangevip.com###clplayback > div[style*="bjy-roll-lamp-default"]
+||img.baijiayun.com/0baijiacloud/live_ppt^$all,removeparam=userNumber
+||img.baijiayun.com/0baijiacloud/live_ppt^$all,removeparam=userId
+||img.baijiayun.com/0baijiacloud/live_ppt^$all,removeparam=userType
+||img.baijiayun.com/0baijiacloud/live_ppt^$all,removeparam=userName
+||img.baijiayun.com/0baijiacloud/live_ppt^$all,removeparam=serial
+||img.baijiayun.com/0baijiacloud/live_ppt^$all,removeparam=name
+||img.baijiayun.com/0baijiacloud/live_ppt^$all,removeparam=userid
+||trace.orangevip.com^$all
+||chengla.shanmaostar.com/newWebstudent/myhomework/recordHiddenVisible^$all
+||chengla.shanmaostar.com/newWebstudent/myhomework/saveIeltsTaskActualTime^$all
+||report.error-report.com^$all
+||dictionary.cambridge.org^$inline-script
+||web.archive.org/web/*/https://dictionary.cambridge.org^$inline-script
+web.archive.org#%#//scriptlet('trusted-click-element', '#donate-close-button')
+webrtcclient.com##div.ays-pb-modals.av_pop_modals_1:nth-child(27)
+openid.13a.com###app > div.main.padding-limiter:last-child > div.panel > div.double-column > img.panel-wide.login-img:first-child
+natfrp.com###readTheDocsToLearnHowToCloseThisPromptPermenantlyInsteadOfBlockingItAndNotReadTheDocs
+labellerr.com###site-main > article.article.post.tag-dataset.tag-hash-akshit.tag-large-language-models.tag-de-duplication.tag-llms.tag-double-descent > section:nth-child(2) > div.contenernew > div.blogsecmain > div.blogrightsec:last-child
+zhongce.sina.com.cn##div.guide-search:first-child
+fc2ppv.me###protection
+kin8-jav.com###protection
+yutu.cn##div.alt-over-url:nth-child(21)
+baeldung.com###zddnuw
+###onetrust-consent-sdk
+ycc.idv.tw##aside:nth-child(3)
+
+||member.streffy.com/base/v2/Advertisement/GetDisplayAdvertisements$jsonprune=\$.advertisements[?(has advertisementId)]
+||userapi.qiekj.com/slot/get
+||api.mcd.cn/bff/portal^
+||api2.mcd.cn/bff/portal^
+||api.mcd.cn/bff/order/confirmation/addon^
+||api2.mcd.cn/bff/order/confirmation/addon^
+||tracking.mcdonalds.com.cn^
+||video*-*.pddpic.com/tower-video-side-b^$all
+||pos.ygfchina.com/weixin/wechat/banner/bannerList^$all
+wapjs.189.cn###packageTheRemainingNew > div.blackBg.c2
+wapjs.189.cn###packageTheRemainingNew > div.tc_flowAI_jiedu.c2
+||wx.go189.cn/app/advertisement^$all
+||wx.go189.cn/app/chudian/exchange^$all
+||gos-ol.yqslmall.com/api/gos-marketing-center/coupon/user/exposure^$all
+||gos-ol.yqslmall.com/api/gos-marketing-center/banner/info^$all
+||gos-ol.yqslmall.com/felog-client^$all
+||appdownload.alicdn.com^$all
+||ads-shopping.shouqianba.com^$all
+||mk-group.cn-hangzhou.log.aliyuncs.com^$all
+www.xpcyjgy.com#%#//scriptlet('trusted-click-element', 'body > div.page-admin > div > div:nth-child(1) > div.nui-box-bd > div:nth-child(4) > div.wjt-mt30.wjt-agreement > label')
+www.xpcyjgy.com##div.page-admin.white:nth-child(2) > div.wjt-all:first-child > div.wjt-first > div.wjt-first-w:last-child > div:nth-child(4)
+||clapp.orangevip.com/appVersion/checkForceUpdate^$all
+||otmadmin.orangevip.com/api/app/noteCheat^$all
+||chengla.at.baijiayun.com/vod/video/getPlayUrl^$jsonprune=\$..["watermark"\, "watermark_switch"\, "watermark_pos"\, "video_watermark_url"\, "video_watermark_pos"\, "video_watermark"\, "ad"\, "enable_prevent_screen_capture"\, "enable_beauty"\, "enable_auto_video_fullscreen"\, "strengthen_against_pirate"\, "playback_default_definition"]
+||chengla.at.baijiayun.com/vod/video/getPlayUrl^$replace=/"enable_video_comment": 0/"enable_video_comment": 1/
+||chengla.at.baijiayun.com/vod/video/getPlayUrl^$replace=/"enable_change_video_rate": 0/"enable_change_video_rate": 1/
+||chengla.at.baijiayun.com/vod/video/getPlayUrl^$replace=/"enable_video_fullscreen": 0/"enable_video_fullscreen": 1/
+||clapp.orangevip.com/course/periodPlay_info^$jsonprune=\$..["watermark"\, "waterMarkMessage"]
+||clapp.orangevip.com/common/getAdImage^$all
+||qs.baijiayun.com^$all
+||click.baijiayun.com^$all
+||brtc-data-collection.baijiayun.com^$all
+||android.bugly.qq.com^$all
+||cnlogs.umeng.com^$all
+||ali-stats.jpush.cn^$all
+||errnewlog.umeng.com^$all
+||app-log-storage.oss-cn-shanghai.aliyuncs.com^$all
+||kefu.easemob.com^$all
+||utoken.umeng.com^$all
+||logger.csslcloud.net^$all
+||yumao.puata.info^$all
+||argsment.com^$all
+||raw.githubusercontent.com/getmodpc/update/refs/heads/main/com.adguard.android^$all
