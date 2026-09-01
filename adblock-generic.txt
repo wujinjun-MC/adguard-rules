@@ -65,6 +65,45 @@ etd.xjtlu.edu.cn$$script[tag-content="下载已被禁用"]
 ebridge.xjtlu.edu.cn###sits_search_div > div.sv-hidden-sm.sv-hidden-xs
 !                 AI chatbot ("e-Bridge Chatbot" with robot emoji)
 ebridge.xjtlu.edu.cn##.fball
+!         Timetable Plus (timetableplus.xjtlu.edu.cn)
+!             Notes:
+!                 1. There is a "tab hiding" issue even if not using these rules or entire Adguard/AdBlock(Plus): `Timetable Personalization` (same entry for `Module Selection`)/`Extended Study Scheme (ESS)`/`Exchange / Visiting`/`Module Pre-selection`/`PE Selection` tab(s) missing
+!                     You may try to append certain paths after "timetableplus.xjtlu.edu.cn/#/" to force-join ones: `selection`/`ess` (or `essmodule`)/`excvis`/`excvismodule`/`pe`
+!                     To find more entries:
+!                         1. ((NOT HATE SPEECH)) "hack" into Devtools using "debugger" bypassing techniques. ^ [XJTLU UIM auto login (send username+password+OTP requests)](https://openuserjs.org/scripts/wujinjun/XJTLU_UIM_%E8%87%AA%E5%8A%A8%E7%99%BB%E5%BD%95_(%E8%AF%B7%E6%B1%82%E7%94%A8%E6%88%B7%E5%90%8D%2B%E5%AF%86%E7%A0%81%2BOTP). [Archived](https://web.archive.org/web/20260901093920/https://openuserjs.org/scripts/wujinjun/XJTLU_UIM_%E8%87%AA%E5%8A%A8%E7%99%BB%E5%BD%95_(%E8%AF%B7%E6%B1%82%E7%94%A8%E6%88%B7%E5%90%8D%2B%E5%AF%86%E7%A0%81%2BOTP)) from the original on 2026-09-01. Retrieved 2026-09-01.)
+!                         2. Open "source code"/"debugger", search `return e.go` in file "timetableplus.xjtlu.edu.cn/js/app*.js".
+!             Auto remove overlay
+!                 To workaround a bug: After viewing course detail in Preview (click the course and show time and location), detail may pop up again when scrolling.
+timetableplus.xjtlu.edu.cn###div.v-overlay__scrim
+!             Auto remove "disabled" status fo "SUBMIT" button
+!                 You can try to submit the changes even if {system time}<{submit allow time}. If your system time is not accurate (e.g. system 7:59 but remote 8:00) you will not lose the chance in *competitive* env.
+timetableplus.xjtlu.edu.cn#%#//scriptlet('remove-attr', 'disabled|example')
+timetableplus.xjtlu.edu.cn#%#//scriptlet('remove-class', 'v-btn--disabled|test')
+!             Auto click "OK" after clicking SUBMIT/MODIFY
+!                 Because why not
+!                 Default settings: find&click per 200ms, limit 10000s
+timetableplus.xjtlu.edu.cn#%#//scriptlet('trusted-click-element', '#app > div.v-dialog__content.v-dialog__content--active:last-child > div.v-dialog.v-dialog--active.v-dialog--persistent > div.v-card.v-sheet.theme--light > div.v-card__actions:last-child > button.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--light.v-size--default.primary:nth-child(2)','','200','','10000')
+!             Remove alert box (default disabled)
+!                 Occurs when "SUBMIT" before the allowed time range
+!                 Side effect: Aborts the Javascript when it tries to access `window.alert` and the page may crash
+!timetableplus.xjtlu.edu.cn#%#//scriptlet('abort-on-property-read', 'alert')
+!             Debug
+!                 Add log-eval (default disabled)
+!                     Reason: Use of encrypted (and/or) obfuscated Javascript (can hide malicious functions, viruses and user tracking) + lack of explicit "disclosure" statement
+!                     Recommended actions (will not metion again below):
+!                         - Report/legal actions
+!                         - Find old pages and js/css files in "Wayback Machine"
+!                         - Record other sub-sites in `*.xjtlu.edu.cn` for evidence (once this issue spreads, the mapping can be found in old files, and legal reports can be generated easier)
+!                             - Network packets (✓Disable cache) (✓Preserve log) (Export HAR)
+!                             - Console logs (✓Preserve log) (Firefox is recommended: console.clear() is ignored when Preserve log enabled)
+!                         - Run the browser in chroot/docker/sandbox/virtual machine.
+!timetableplus.xjtlu.edu.cn#%#//scriptlet('log-eval')
+!         UIM (uim.xjtlu.edu.cn) | Keywords=["SSO"]
+!             Debug
+!                 Add log-eval (default disabled)
+!                     Reason: Use of encrypted (and/or) obfuscated Javascript (can hide malicious functions, viruses and user tracking) + lack of explicit "disclosure" statement
+!                     Recommended actions (above)
+!uim.xjtlu.edu.cn#%#//scriptlet('log-eval')
 
 !     Zhihu
 zhuanlan.zhihu.com###root > div.App > main.App-main:nth-child(5) > div.Post-content > div.Post-Row-Content:nth-child(3) > div.Post-Row-Content-right.css-1qyytj7:last-child > div:last-child
@@ -137,6 +176,13 @@ ieltsdeal.com$$script[id="wpcp_disable_selection"]
 !     yhg (移花宫) (仅针对主站 yhg007.com ，镜像站请自行扩展)
 !         拒绝 Cookie ，可以在一定程度上 Fuck Cloudflare Challenge ((NOT HATE SPEECH)) 。 (建议搭配 Clash 分流规则，自动检测可访问的节点)
 *$cookie,domain=yhg007.com|yhg008.com
+!         详情页广告屏蔽和精简
+yhg007.com###main-content > section.zsky-app-ads-mini.zsky-card
+yhg007.com###main-content > section.zsky-publish-links-mini.zsky-card
+yhg007.com###main-content > section.zsky-card.zsky-preview-panel
+yhg007.com###main-content > section.zsky-card.zsky-title-card > div.zsky-tags
+yhg007.com###main-content > section.zsky-card.zsky-title-card > h2
+yhg007.com###main-content > section.zsky-card:nth-child(8)
 
 !     ChengLa/OrangeVIP (橙啦)
 !         登录页面
@@ -288,3 +334,7 @@ www.xpcyjgy.com##div.page-admin.white:nth-child(2) > div.wjt-all:first-child > d
 !             Ref: "${yt_url_watch}hJTt3CspGeY&t=837"
 !             此软件与Adguard冲突，如果用户使用此软件，会关闭Adguard，所以最好使用AdGuardHome规则，在路由器上部署
 ||argsment.com^$all
+!     GetModPC
+!         Annoying Update Checker (A dialog pops up to block all contents. You must update the APP in Telegram to continue, where the conflict happens (below))
+!             Adguard (Sometimes I have to adjust settings to make it work again, but it pops up and I can't connect to Telegram!)
+||raw.githubusercontent.com/getmodpc/update/refs/heads/main/com.adguard.android^$all
