@@ -2,6 +2,10 @@
 !     AntiFraud.js96110
 ||www.js96110.com.cn^
 
+!     XJTLU
+!         AI agent (aiagent.xjtlu.edu.cn): Anti AI slop
+||aiagent.xjtlu.edu.cn^
+
 !     xueqiu (雪球)
 !         Fully blocked because of unexpected behavior on Wayback Machine. You should use `Save screenshot` to prevent disgusting force redirection to the site.
 ||xueqiu.com^
@@ -21,6 +25,12 @@
 !     report.error-report.com
 !         DO NOT POPUP!!!
 ||report.error-report.com^
+
+!     CSDN (*.csdn.net, not "CDN")
+!         Fully blocked because of unexpected behavior on Wayback Machine. You should use `Save screenshot` to prevent disgusting force redirection to the site.
+!         Professional programmers should always insist on learning in English and should never rely on low-quality content on the Chinese Internet.
+||csdn.net^
+||www.csdn.net^
 
 !     adblock-generic.txt → Android:
 
@@ -57,3 +67,14 @@
 !             Ref: "${yt_url_watch}hJTt3CspGeY&t=837"
 !             此软件与Adguard冲突，如果用户使用此软件，会关闭Adguard，所以最好使用AdGuardHome规则，在路由器上部署
 ||argsment.com^
+
+!     金山文档 | WPS云文档 (小程序)
+!         Anti AI slop :generic
+||volcengine-cache-weboffice.wpscdn.cn^
+!         dw*.(ksosoft|ksord).com
+!             Block: User tracking and debugging
+||dw-collect.ksosoft.com^
+||dw-collect-debug.ksord.com^
+||dw-online.ksosoft.com/api/dynamicParam^
+!                 (Punish encrypted POST stream)
+||dw-miniprogram-col.ksord.com^
